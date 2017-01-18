@@ -203,7 +203,7 @@ class Post
      */
     public function isDraft()
     {
-        if ($this->publishedAt == null) {
+        if (null === $this->publishedAt) {
             return true;
         }
 

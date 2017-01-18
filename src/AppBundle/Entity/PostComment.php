@@ -105,7 +105,7 @@ class PostComment
      *
      * @return PostComment
      */
-    public function setIsDeleted($isDeleted)
+    public function setDeleted($isDeleted)
     {
         $this->isDeleted = $isDeleted;
 
@@ -117,7 +117,7 @@ class PostComment
      *
      * @return bool
      */
-    public function getIsDeleted()
+    public function isDeleted()
     {
         return $this->isDeleted;
     }

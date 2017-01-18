@@ -44,8 +44,6 @@ class PageController extends Controller
      */
     public function categoryAction(PostCategory $category)
     {
-        $em = $this->getDoctrine()->getManager();
-
         return $this->render('AppBundle:Page:category.html.twig', [
             'category' => $category
         ]);

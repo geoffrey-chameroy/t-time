@@ -297,23 +297,13 @@ class User implements UserInterface
      *
      * @return User
      */
-    public function setIsAdmin($isAdmin)
+    public function setAdmin($isAdmin)
     {
         $this->isAdmin = $isAdmin;
 
         return $this;
     }
 
-    /**
-     * Get isAdmin
-     *
-     * @return boolean
-     */
-    public function getIsAdmin()
-    {
-        return $this->isAdmin;
-    }
-    
     /**
      * Get isAdmin
      *

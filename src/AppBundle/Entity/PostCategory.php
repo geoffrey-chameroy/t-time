@@ -133,21 +133,11 @@ class PostCategory
      *
      * @return PostCategory
      */
-    public function setIsVisible($isVisible)
+    public function setVisible($isVisible)
     {
         $this->isVisible = $isVisible;
 
         return $this;
-    }
-
-    /**
-     * Get isVisible
-     *
-     * @return boolean
-     */
-    public function getIsVisible()
-    {
-        return $this->isVisible;
     }
 
     /**

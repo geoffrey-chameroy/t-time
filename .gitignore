@@ -17,10 +17,6 @@
 /web/bundles/
 *~
 
-## IDE ##
-/.idea
-/nbproject
-
 ## Uploads ##
 /web/asset/web/img/post
 !/web/asset/web/img/post/.gitkeep
